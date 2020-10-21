@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>粽子丸的博客</title>
-  
+  <icon>http://yoursite.com/icon.png</icon>
   
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
@@ -23,12 +23,13 @@
     <published>2020-10-19T05:52:27.000Z</published>
     <updated>2020-10-19T05:52:27.000Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>在学习过扎克的苹果教程后，本来是要自己建模个滑板，可是发现自己忘记了很多东西。扎克的苹果教程更在于让新手了解blender整个的流程，所以在建模的地方就比较简单。其实自己之前也有去学过一些基础的硬表面建模，可是之前没有把他们做个笔记，学完之后也没有去实际的应用，想要复习都没办法。所以在进行目前这个教程的uv篇之前，先来总结一下建模篇用到的一些建模方法。</p><h4 id="建模方法"><a href="#建模方法" class="headerlink" title="建模方法"></a>建模方法</h4><p>这个教程主要是面向新人的，我觉得最有用的是前两集介绍的3d建模的学习路线，从小物件开始，到室内场景，再到室外场景，最后才是最难的人物建模。大的来说就是有机物的建模难度小于无机物，最难的就是生物了，人物了，在学习苹果建模之前，差点直接走到了人物去。。。。还有就是新手应该更多的使用立方体去建模。这套教程的最终成果是一个魔法气氛很足的一个场景，我很喜欢。也很感谢能翻译这些教程的up主！现在来进入正题吧！</p><h5 id="戒指"><a href="#戒指" class="headerlink" title="戒指"></a>戒指</h5><p>这个比较简单，在看具体的教程时，自己先尝试了一下，之后看了教程之后，发现我们的方法几乎一样，完成之后它是这样的。</p><p><img src="/2020/10/19/blender%E5%BB%BA%E6%A8%A1%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93-%E5%BB%BA%E6%A8%A1%E7%AF%87/a.png" alt loading="lazy"></p><p>之所以我用的方法能和作者相似，因为作者之前展示了如何建模这些东西，都是从大概的物体开始，这个戒指用的时柱体做的，如果不看这个教程，我可能或选择圆环来建模，如果尝试过的话，相信我，你会觉得还是圆柱体来的快，虽然圆环长得更像戒指。</p><h6 id="具体方法"><a href="#具体方法" class="headerlink" title="具体方法"></a>具体方法</h6><p>新建一个柱体，定点数调低一点，比较好处理。</p><p><img src="/2020/10/19/blender%E5%BB%BA%E6%A8%A1%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93-%E5%BB%BA%E6%A8%A1%E7%AF%87/a1.png" alt loading="lazy"></p><p>接着沿着z轴将柱体压扁一点，缩放后记着ctrl+a应用缩放。</p><p><img src="/2020/10/19/blender%E5%BB%BA%E6%A8%A1%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93-%E5%BB%BA%E6%A8%A1%E7%AF%87/a2.png" alt loading="lazy"></p><p>然后进入编辑模式，选择上下两个底面，按i进行插面。</p><p><img src="/2020/10/19/blender%E5%BB%BA%E6%A8%A1%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93-%E5%BB%BA%E6%A8%A1%E7%AF%87/a3.png" alt loading="lazy"></p><p>下来删除这连个面，并且选择删除面之后生成的两条循环边，右键点击桥接循环边。</p><p><img src="/2020/10/19/blender%E5%BB%BA%E6%A8%A1%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93-%E5%BB%BA%E6%A8%A1%E7%AF%87/a4.png" alt loading="lazy"> <img src="/2020/10/19/blender%E5%BB%BA%E6%A8%A1%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93-%E5%BB%BA%E6%A8%A1%E7%AF%87/a5.png" alt loading="lazy"></p><p>之后就是常规的表面细分，然后加一些循环边硬化表面。</p><h5 id="使用曲线轻松制作一个卷轴"><a href="#使用曲线轻松制作一个卷轴" class="headerlink" title="使用曲线轻松制作一个卷轴"></a>使用曲线轻松制作一个卷轴</h5><p><img src="/2020/10/19/blender%E5%BB%BA%E6%A8%A1%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93-%E5%BB%BA%E6%A8%A1%E7%AF%87/b.png" alt loading="lazy"></p><p>卷轴让我瞬间想到了之前不久一直在玩的上古卷轴5，哈哈，突然想查一下卷轴的英文单词，<em>查找中</em>，额，scroll。因为之前很少用曲线去建立一个用面构成的模型，除了绳子。所以要我去建立一个卷轴的话我可能用一个平面的一条边去挤出。</p><p>未完待续。。</p><p>to be continue!</p><script src="https://utteranc.es/client.js" repo="Adriancanfly/Adriancanfly.github.io" issue-term="pathname" theme="preferred-color-scheme" crossorigin="anonymous" async></script>]]></content>
-    
     
       
       
-    <summary type="html">&lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;p&gt;在学习过扎克的苹果教程后，本来是要自己建模个滑板，可是发现自己忘记了很多东西。扎克的苹果教程更在于让新手了解blender整个的流程，所以在</summary>
+        
+        
+    <summary type="html">&lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -47,14 +48,15 @@
     <published>2020-10-13T02:38:42.000Z</published>
     <updated>2020-10-13T02:38:42.000Z</updated>
     
-    <content type="html"><![CDATA[<p><em>虽然之前已经学习过一些教程，但是跟着扎克大神的苹果教程学习之后，还是有一些想要记个笔记</em></p><hr><h4 id="关键是一些材质着色器节点"><a href="#关键是一些材质着色器节点" class="headerlink" title="关键是一些材质着色器节点"></a>关键是一些材质着色器节点</h4><p>该教程主要是讲了一些基础建模，更多是讲了材质和渲染。我可能更多的学到新的地方是材质节点这个地方。</p><h5 id="苹果"><a href="#苹果" class="headerlink" title="苹果"></a>苹果</h5><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/apple.png" alt loading="lazy"></p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/applenode1.png" alt loading="lazy"></p><p>图像纹理中的图是之前在uv绘制的。这个苹果的节点很简单，但还是进行解释一下。</p><p>图像纹理输入选项的颜色连接了三个其他的节点，</p><ul><li><p>第一个就很容易理解，就是连接uv纹理到苹果上。</p></li><li><p>第二个连接到颜色渐变的节点上，颜色渐变又将其连接到了粗糙度的输入，</p><p>让我们看看这个颜色渐变的节点到底做了什么。</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/apple2.png" alt loading="lazy"></p><p>我们将颜色节点的输出连接到材质输出的节点上，结果是:</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/result1.png" alt loading="lazy"></p><p>是的变成了黑白苹果，黑色的值在左边，左边值更小，所以用黑白值为苹果的粗糙度值赋值，之后黑色的地方会更光滑，颜色渐变器节点可以使你调节各颜色的权重，就是你可以让黑色的地方更黑或更白，当然这只是颜色渐变器的一个用处</p></li><li><p>第三个，连接了一个凹凸着色器节点的高度输入选项。也就是用颜色的值作为其偏离苹果表面的偏移值。解释下，本来建模的苹果只是一个光滑的不得了的球体，但是现实生活中的苹果表面，可是会有很多细小的凹凸的纹理，然后我们用其颜色的值作为本来表面现在偏离原来表面的偏离量，比如说颜色深的地方会比原来的表面更高，浅的地方会比其原来的地方高的更小一点，也可能是负值，也就是凹下去了。</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/result2.png" alt loading="lazy"></p><p>调高了他的值，额</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/result3.png" alt loading="lazy"></p><p>我可不喜欢这样的苹果。。。</p></li></ul><h5 id="金属碗"><a href="#金属碗" class="headerlink" title="金属碗"></a>金属碗</h5><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/bowl1.png" alt loading="lazy"></p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/bowlnode.png" alt loading="lazy"></p><p>这个就一个没见过的节点，噪波节点，可以看到我的碗有一大量的凹凹凸凸的感觉，我们还是来看看这个节点干了什么吧。</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/bowlnode2.png" alt loading="lazy"></p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/bowl2.png" alt loading="lazy"></p><p>很明显吧，他程序化的生成了一些彩色波纹的东西，最后用我们刚才苹果着色器用的颜色渐变把它转换成我们需要的东西。</p><h5 id="叶子"><a href="#叶子" class="headerlink" title="叶子"></a>叶子</h5><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leaf.png" alt loading="lazy"></p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leafnode.png" alt loading="lazy"></p><p>恐怖吧这个节点！是的这就是重头戏！这个叶子其实本来只是一张带阿尔法通道的图</p><p>如下</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leaf2.png" alt loading="lazy"></p><p>通过这些节点将其变成了我们想要的效果。</p><p>下面的部分，我们已经很熟悉了，就是使用了图像本来的Alpha通道，使其该透明的地方透明。我们先来看看下面的效果。</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leafnode2.png" alt loading="lazy"></p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leaf3.png" alt loading="lazy"></p><p>除了没有了半透明的效果以外，还是挺好的。现在看看上面的节点到底干了啥先来看看半透明节点</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leafnode3.png" alt loading="lazy"></p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leaf4.png" alt loading="lazy"></p><p>很明显我们得到了一个原来图片的半透明版，但是他的Alpha并没有启动，而且也并没有纹理，所以我们用一个混合着色器将我们下面的已经得到纹理的图像进行混合。</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leafnode4.png" alt loading="lazy"></p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leaf5.png" alt loading="lazy"></p><p>现在我们得到了一个既有纹理又透明的叶子，这是我们想要的，可是就像上面说的没有启用Alpha通道，我们并不需要叶子以外的其他地方显示。所以我们需要将现在得到的和一个透明节点进行混合，现在可能有伙计就要发问了：如果这样的话应该只会让全部在透明和半透明之间变化吧？当然我们不会直接去调节上面的系数参数，我们要做的是将图像纹理节点的Alpha输出选项连接到着色器节点的系数参数，在这之前我们看看将图像纹理节点的Alpha连接到材质节点上会是个什么情况。</p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leafnode5.png" alt loading="lazy"></p><p><img src="/2020/10/13/blender%E8%8B%B9%E6%9E%9C%E6%95%99%E7%A8%8B%E5%B0%8F%E6%80%BB%E7%BB%93/leaf6.png" alt loading="lazy"></p><p>可以看到的是，透明的地方为黑色，不透明的地方为白色，现在将图像纹理Alpha输出选项连接到材质混合节点的系数上，我们就是告诉它，在透明的地方使用透明材质，黑色的地方使用我们弄好的那个。</p><h4 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h4><p>这个教程其实还有一些其他的知识，比如布光，之后会专门弄一个，就不再这里写了。</p><script src="https://utteranc.es/client.js" repo="Adriancanfly/Adriancanfly.github.io" issue-term="pathname" theme="preferred-color-scheme" crossorigin="anonymous" async></script>]]></content>
-    
     
       
       
+        
+        
     <summary type="html">&lt;p&gt;&lt;em&gt;虽然之前已经学习过一些教程，但是跟着扎克大神的苹果教程学习之后，还是有一些想要记个笔记&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id=&quot;关键是一些材质着色器节点&quot;&gt;&lt;a href=&quot;#关键是一些材质着色器节点&quot; class=&quot;headerlink&quot; title=&quot;关键是</summary>
+&lt;h4 id=&quot;关键是一些材质着色器节点&quot;&gt;&lt;a href=&quot;#关键是一些材质着色器节点&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -73,14 +75,15 @@
     <published>2020-10-05T16:54:59.000Z</published>
     <updated>2020-10-05T16:54:59.000Z</updated>
     
-    <content type="html"><![CDATA[<p><em>果然学习没有笔记是不行的，啊啊，逃不掉呀！万万没想到的是，我</em></p><p><em>竟然放弃了程序员，想要去学建模，暂且跟着心走吧，以后说不定就没机会了</em></p><h3 id="blender-材质节点学习"><a href="#blender-材质节点学习" class="headerlink" title="blender 材质节点学习"></a>blender 材质节点学习</h3><hr><h4 id="blender-材质节点之输入节点"><a href="#blender-材质节点之输入节点" class="headerlink" title="blender 材质节点之输入节点"></a>blender 材质节点之输入节点</h4><ol><li><p>环境光遮蔽(Ambient Occlusion) “AO”节点</p><blockquote><p>先来了解一下什么是<strong>环境光遮蔽</strong>，环境光遮蔽就是用来描绘物体与物体</p><p>相交或靠近的时候遮挡周围漫反射光线的效果。可以用来解决或改善漏</p><p>光、飘和阴影不实等问题，解决或改善场景中缝隙、褶皱与墙角、角线</p><p>以及细小物体等的表现不清晰等问题，中和改善细节尤其是暗部阴影，</p><p>增强空间的层次感、真实感。同时加强和改善画面明暗对比，增强画面</p><p>的艺术感。<em>主要就是增强了局部细节暗部阴影</em>。</p></blockquote><p>以上内容来自搜狗百科。。。我还了解了AO的历史，其实就是为了解决游戏中</p><p>光照渲染的问题，在显卡等硬件性能还不够的时候，需要一个渲染效率较高的</p><p>渲染方法(算法)，这之前有的一般的光照渲染模式<del>比较low</del>，AO也有其升级版(SSAO,HBAO)，</p><p>其最终目标是，实时光线追踪！咳咳。。</p><p>在对AO有了一丝丝了解之后，我们来看看blender的AO节点，对了无图说个鸡儿。</p><p><img src="/2020/10/06/blender%E6%9D%90%E8%B4%A8%E8%8A%82%E7%82%B9%E4%B9%8B%E7%8E%AF%E5%A2%83%E5%85%89%E9%81%AE%E8%94%BD/a.png" alt loading="lazy"></p><p>没错我用的是中文版。</p><p>未开启环境光遮蔽的情况下</p><p><img src="/2020/10/06/blender%E6%9D%90%E8%B4%A8%E8%8A%82%E7%82%B9%E4%B9%8B%E7%8E%AF%E5%A2%83%E5%85%89%E9%81%AE%E8%94%BD/b.png" alt loading="lazy"></p><p><img src="/2020/10/06/blender%E6%9D%90%E8%B4%A8%E8%8A%82%E7%82%B9%E4%B9%8B%E7%8E%AF%E5%A2%83%E5%85%89%E9%81%AE%E8%94%BD/c.png" alt loading="lazy"></p><p>开启了环境光遮蔽的情况</p><p><img src="/2020/10/06/blender%E6%9D%90%E8%B4%A8%E8%8A%82%E7%82%B9%E4%B9%8B%E7%8E%AF%E5%A2%83%E5%85%89%E9%81%AE%E8%94%BD/d.png" alt loading="lazy"></p><p><img src="/2020/10/06/blender%E6%9D%90%E8%B4%A8%E8%8A%82%E7%82%B9%E4%B9%8B%E7%8E%AF%E5%A2%83%E5%85%89%E9%81%AE%E8%94%BD/e.png" alt loading="lazy"></p><p>可以看到的是，开启后阴影的细节更加的丰富。</p><h5 id="AO节点的输入选项"><a href="#AO节点的输入选项" class="headerlink" title="AO节点的输入选项"></a>AO节点的输入选项</h5><ul><li>颜色: 这个就不多讲了</li><li>距离: 产生效果的最大距离，超过这个距离就没效果了(该输入仅支持cycles引擎)</li><li>法向: 可以使用法向贴图，没有和其他法向贴图连接的话，使用默认</li></ul><h5 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h5><ul><li>采样: 额，就是精度</li><li>向内:  通过计算内部网格的遮蔽来检测凸面，而不检测凹面。</li><li>仅局部: 只检测对象本身的遮蔽，不检测其他物体对其的遮蔽</li></ul><h5 id="输出选项"><a href="#输出选项" class="headerlink" title="输出选项"></a>输出选项</h5><ul><li>颜色: 带颜色的遮蔽</li><li>AO: 不带颜色的环境光遮蔽</li></ul></li></ol><script src="https://utteranc.es/client.js" repo="Adriancanfly/Adriancanfly.github.io" issue-term="pathname" theme="preferred-color-scheme" crossorigin="anonymous" async></script>]]></content>
-    
     
       
       
+        
+        
     <summary type="html">&lt;p&gt;&lt;em&gt;果然学习没有笔记是不行的，啊啊，逃不掉呀！万万没想到的是，我&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;竟然放弃了程序员，想要去学建模，暂且跟着心走吧，以后说不定就没机会了&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&quot;blender-材质节点学习&quot;&gt;&lt;a href=&quot;#blender-</summary>
+&lt;h3 id=&quot;blender-材质节点学习&quot;&gt;&lt;a</summary>
+        
       
     
     
@@ -99,12 +102,13 @@
     <published>2020-08-02T08:45:41.000Z</published>
     <updated>2020-08-02T08:45:41.000Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="如标题那样，这篇主要是对忘了的知识点的复习"><a href="#如标题那样，这篇主要是对忘了的知识点的复习" class="headerlink" title="如标题那样，这篇主要是对忘了的知识点的复习"></a>如标题那样，这篇主要是对忘了的知识点的复习</h4><p>所以知识点的顺序就会很奇怪..</p><h5 id="字符转义序列中的一些知识点"><a href="#字符转义序列中的一些知识点" class="headerlink" title="字符转义序列中的一些知识点"></a>字符转义序列中的一些知识点</h5><ul><li>在c#中，转义字符序列是以反斜杠 <code>\</code>开头</li><li>在文本字符串中插入双引号应该 <code>\&quot;</code></li><li>在文本字符串中插入反斜杠<code>\</code>,应该<code>\\</code></li><li>为了解决上面这两个问题还可以使用逐字字符串文本  <ul><li>就像这样<code>Console.WriteLine(@&quot;c:\invoices&quot;);</code></li></ul></li><li></li></ul>]]></content>
-    
     
       
       
-    <summary type="html">&lt;h4 id=&quot;如标题那样，这篇主要是对忘了的知识点的复习&quot;&gt;&lt;a href=&quot;#如标题那样，这篇主要是对忘了的知识点的复习&quot; class=&quot;headerlink&quot; title=&quot;如标题那样，这篇主要是对忘了的知识点的复习&quot;&gt;&lt;/a&gt;如标题那样，这篇主要是对忘了的知识点的复习&lt;/</summary>
+        
+        
+    <summary type="html">&lt;h4 id=&quot;如标题那样，这篇主要是对忘了的知识点的复习&quot;&gt;&lt;a href=&quot;#如标题那样，这篇主要是对忘了的知识点的复习&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -134,13 +138,13 @@
     <published>2020-07-08T12:33:10.000Z</published>
     <updated>2020-07-08T12:33:10.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="C-学习：类"><a href="#C-学习：类" class="headerlink" title="C#学习：类"></a>C#学习：类</h1><p>自己学习C#时的总结，如有不对之处，请大家指出。</p><p>类是一种用户定义类型，类型和结构最大的区别我认为可能是就是，类成员包括<strong>数据成员</strong>和<strong>函数成员</strong>，而结构仅仅是由数据组成的。</p><h3 id="对类的理解"><a href="#对类的理解" class="headerlink" title="对类的理解"></a>对类的理解</h3><p>​    类是模拟现实中的事物的一种数据结构 ，而现实中的事物除了它的特征如：颜色等等，一般还会有它的行为，比如跑、跳等。类用他的成员来表示这些，数据成员用来表示他的特征，函数成员用来表示他的行为。</p><h3 id="类实例的创建"><a href="#类实例的创建" class="headerlink" title="类实例的创建"></a>类实例的创建</h3><p>在类实例的创建之前，我们得先知道类的声明，因为之前学习过c，所以觉得和c得结构得声明很相似，但c#中也是有结构的。  </p><pre class=" language-c#"><code class="language-c#">class MyExcellentClass//类名&#123;    //成员声明&#125;</code></pre><p>接下来就是类实例的创建，类的实例的创建就好比用模板来创建不同的实例，类实例的成员的值也都是实例特有的（但是除了<strong>静态成员</strong>），类是<strong>引用类型</strong>，所以要为其数据引用和实际数据都要申请内存。  </p><pre class=" language-c#"><code class="language-c#">class Class&#123;    ...&#125;class Program&#123;    static void Main()    &#123;        Class mc; //为数据应用申请数据        mc=new Class();//new关键字可以为任意类型的实例分配并初始化。    &#125;&#125;</code></pre><p>当然这两个步骤是可以合并起来的：</p><pre class=" language-c#"><code class="language-c#">static void Main()&#123;    Class mc = new Class();&#125;</code></pre><h3 id="类的成员"><a href="#类的成员" class="headerlink" title="类的成员"></a>类的成员</h3><ul><li>字段</li><li>方法</li><li>属性</li><li>常量</li><li>索引</li><li>构造函数</li><li>折构函数</li><li>运算符</li><li>事件  </li></ul><h3 id="字段"><a href="#字段" class="headerlink" title="字段"></a>字段</h3><p>类在声明后，相当于创建了一个模板。如果用鸟举例说明的话，那么类声明相当于创建了所有鸟都用的模型，而每个鸟都有自己的大小，自己的性格，甚至有自己的飞行习惯。而每个实例特有的数据就是用实例字段保存。叫个字段它其实就是类里面的变量。  </p><pre class=" language-c#"><code class="language-c#">class MyClass&#123;    int a;    float b;//类的字段&#125;</code></pre><p>除了上面讲的每个实例特有的字段外，还有一种叫做<strong><em>静态字段</em></strong>的存在。</p><p>使用<code>static</code>关键字将字段声明为静态字段。</p><p>静态字段对于所有的实例都可见，而且任何实例都可修改其值。在内存上静态字段是独立于实例的，它不会像实例字段那样，每创建一个实例都会为实例创建其实例字段，而且<strong>就算没有实例，静态成员也可以访问</strong>，直接使用类型名就可以访问。举一个例子，比如现在有一个粮仓，所有人都可以往粮仓里面添加粮食，也可以取粮食，很明显的，每个人都可以看出粮食还有多少，不用特别的问某个人，直接访问粮仓就可以知道粮仓还有多少粮食。</p><pre class=" language-C#"><code class="language-C#">class MyClass&#123;    static public int sum=10;&#125;class Program&#123;    static void Main()    &#123;        Console.WriteLine("&#123;0&#125;",MyClass.sum);        MyClass mc=new MyClass();        Console.WriteLine($"&#123;MyClass.sum&#125;");        mc.sum=20;        Console.WriteLine("&#123;0&#125;",MyClass.sum);    &#125;&#125;</code></pre><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>如果之前接触过编程的话，当然就会明白何为方法，我也不多讲了，自行百度。</p><p>还需要强调的一点是：<em>C#中并没有并没有全局函数</em></p><pre class=" language-c#"><code class="language-c#">class MyClass&#123;    void PrintName()    &#123;        Console.WriteLine("Name1");        Console.WriteLine("Name2");    &#125;&#125;</code></pre><h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>我们应该把它叫做成员常量，因为是在类中声明的常量。</p><p>常量的声明的关键字为：<code>const</code></p><pre class=" language-c#"><code class="language-c#">class MyClass&#123;    public const int a=1;&#125;</code></pre><p>常量声明同时也必须为其进行初始化，而且一旦初始化就不能进行更改</p><p>先到这里，，，明天继续。</p>]]></content>
-    
     
       
       
-    <summary type="html">&lt;h1 id=&quot;C-学习：类&quot;&gt;&lt;a href=&quot;#C-学习：类&quot; class=&quot;headerlink&quot; title=&quot;C#学习：类&quot;&gt;&lt;/a&gt;C#学习：类&lt;/h1&gt;&lt;p&gt;自己学习C#时的总结，如有不对之处，请大家指出。&lt;/p&gt;
-&lt;p&gt;类是一种用户定义类型，类型和结构最大的区别我</summary>
+        
+        
+    <summary type="html">&lt;h1 id=&quot;C-学习：类&quot;&gt;&lt;a href=&quot;#C-学习：类&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -159,16 +163,17 @@
     <published>2020-06-23T12:13:25.000Z</published>
     <updated>2020-06-23T12:13:25.000Z</updated>
     
-    <content type="html"><![CDATA[<p>终于弄好了自己的博客，吼吼</p><hr><p>#起点</p><p><strong>奥里给！</strong>我会开始在博客上总结自己的学习的东西，MarkdownPad效果不太好。。。<br>对了，这也当做对我的<em>写作</em>上的锻炼！</p><p>##测试下代码高亮<br>    int main(void)<br>    {<br>        printf(“hello world”);<br>        return;<br>    }</p><p>代码块好像没有显示。。。待我研究研究</p><pre class=" language-c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>  <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>     <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>  <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span></code></pre><hr><p><strong>奥里给！</strong>这次就到这！</p>]]></content>
-    
     
       
       
+        
+        
     <summary type="html">&lt;p&gt;终于弄好了自己的博客，吼吼&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;#起点&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;奥里给！&lt;/strong&gt;我会开始在博客上总结自己的学习的东西，MarkdownPad效果不太好。。。&lt;br&gt;对了，这也当做对我的&lt;em&gt;写作&lt;/em&gt;上的锻炼！&lt;/p&gt;
 &lt;p&gt;##测</summary>
+        
       
     
     
@@ -183,12 +188,13 @@
     <published>2020-06-21T06:33:20.083Z</published>
     <updated>2020-06-21T06:33:20.083Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
       
     
     
