@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-10-19T05:52:27.000Z</updated>
+  <updated>2022-04-21T09:46:59.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想起来我还有个博客</title>
+    <link href="http://yoursite.com/2022/04/21/%E6%83%B3%E8%B5%B7%E6%9D%A5%E6%88%91%E8%BF%98%E6%9C%89%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2022/04/21/%E6%83%B3%E8%B5%B7%E6%9D%A5%E6%88%91%E8%BF%98%E6%9C%89%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-04-21T09:46:59.000Z</published>
+    <updated>2022-04-21T09:46:59.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>blender建模入门总结:建模篇</title>
